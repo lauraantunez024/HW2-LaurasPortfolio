@@ -13,7 +13,7 @@ body {
   }
   
 header {
-    padding: 30px;
+    /* padding: 5px; */
     text-align: center;
     background-color: #1C658C;
     color: #398AB9;
@@ -23,6 +23,9 @@ a {
     color: #EEEEEE;
     font-size: 18px;
     background-color: #1C658C;
+    display: inline;
+    margin-left: 50px;
+   
 
   }
 
@@ -40,18 +43,56 @@ section {
 
 }
 
-nav {
-    display: inline;
-    background-color: #1C658C;
+.flex-container {
+    display: flex;
+    flex: 1 0 50px;
+    height: 150px;
+    border: 15px solid #1C658C;
+    background: url(https://i.ytimg.com/vi/IOfnCoc4ig4/maxresdefault.jpg);
 
 
 }
 
+
+
+.flex-container p {
+    display: inline-flex;
+    border: 10px solid #1C658C;
+    padding: 10px;
+    
+
+
+   
+    /* width: 300px;
+    border: 10px solid #1C658C;
+    padding: 10px;
+    margin-left: 1500px;
+    margin-top: 60px;
+    display: inline-block;
+    justify-content: end; */
+
+}
+
+.bottom-right {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+
+nav {
+    display: inline;
+    background-color: #1C658C;
+    text-align: right;
+}
+
+
+
 #name {
     width: 300px;
-    border: 15px solid #1C658C;
+    border: 10px solid black;
     padding: 10px;
-    margin: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
     display: block;
     /* display: inline-block;
     flex: 1 0 50px;
