@@ -17,9 +17,10 @@ header {
     text-align: center;
     background-color: #1C658C;
     color: #398AB9;
+    height: 200px;
   }
 
-a { 
+nav a { 
     color: #EEEEEE;
     font-size: 18px;
     background-color: #1C658C;
@@ -28,6 +29,11 @@ a {
    
 
   }
+
+a:hover {
+     color:#1C658C;
+     background-color: #EEEEEE;
+ }
 
 h1 {
     color: #1C658C;
@@ -44,16 +50,17 @@ section {
 }
 
 .flex-container {
-    display: flex;
-    flex: 1 0 50px;
-    height: 150px;
-    border: 15px solid #1C658C;
-    background: url(https://i.ytimg.com/vi/IOfnCoc4ig4/maxresdefault.jpg);
+    display: inline-flex;
+    height: 300px;
+    background: url(/assets/images/geom.png);
+    border: 10px solid black;
 
 
 }
 
-
+#subtitle {
+    margin:auto;
+}
 
 .flex-container p {
     display: inline-flex;
@@ -83,24 +90,29 @@ nav {
     display: inline;
     background-color: #1C658C;
     text-align: right;
+    justify-content: end;
 }
 
+img {
+    padding: 5px;
+    width: auto;
+    height: 150px;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    border: 10px solid black;
+    display: inline;
+
+}
 
 
 #name {
     width: 300px;
-    border: 10px solid black;
+    border: 8px solid black;
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 200px;
     margin-left: 50px;
-    display: block;
-    /* display: inline-block;
-    flex: 1 0 50px;
-    align-content: flex-start;
-    padding: 10px;
-    box-align: left;
-    border-style: solid;
-    border-width: 3px; */
+    display: inline;
     background-color: #EEEEEE;
     
   }
@@ -108,7 +120,7 @@ nav {
     padding: 40px;
     text-align: left;
     background-color: #1C658C;
-    color: #DDE7F2;
+    color: #EEEEEE;
   }
 
   footer h2 {
