@@ -14,7 +14,7 @@ body {
   }
 
 
-footer, footer h2, footer p, footer a, nav, nav a, header, .container {
+footer, footer h2, footer p, footer a, .nav, .nav a, header, .container {
     background-color: #1C658C;
 }
 
@@ -35,45 +35,63 @@ h2 {
   
 
 
-  /* Header section including Navbar and name */
+  /* Header section including Navbar and name and author photo*/
   
 header {
-    /* padding: 5px; */
     text-align: center;
     color: #398AB9;
-    height: 200px;
+    padding: 10px;
+   
   }
 
 #name {
     width: 300px;
     border: 8px solid black;
     padding: 10px;
-    margin-top: 200px;
-    margin-left: 50px;
-    margin-right: 900px;
-    display: inline;
+    display: block;
     background-color: #EEEEEE;
     
   }
+
+nav {
+    background-color: #EEEEEE;
+    overflow: hidden;
+    padding: 15px;
+    text-align: right;
+}
 
 nav a { 
     color: #EEEEEE;
     font-size: 18px;
     display: inline;
-    text-align: right;
-    margin-left: 50px;
+    margin: 50px 50px;
     font-weight:bold;
+    color: #1C658C;
    
   }
-  nav {
+
+  /* Author picture section */
+
+.container {
+    position: static;
     display: inline;
-    text-align: right;
-    justify-content: end;
 }
 
-a {
-    text-align: right;
+header img {
+    padding: 5px;
+    width: auto;
+    height: 150px;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 10px solid black;
+    
 }
+/* 
+.row {
+    display: flex;
+} */
+
 
 
 /* Image within header and subtitle within that image */
@@ -90,6 +108,7 @@ a {
     margin:auto;
     display: flex;
     justify-content: flex-end;
+    font-size: 24px;
     
 }
 
@@ -101,33 +120,36 @@ a {
 }
 /* Hover interactivity for links in footer and header */
 
-nav a:hover, footer a:hover {
+nav a:hover {
+    color:#EEEEEE;
+    background-color: #1C658C;
+    
+}
+
+footer a:hover {
     color:#1C658C;
     background-color: #EEEEEE;
  }
 
 
 
-/* Author picture section */
+ /* About me section */
 
-.container {
-    position: static;
-    display: inline;
-}
-
-header img {
-    padding: 5px;
-    width: auto;
-    height: 150px;
-    text-align: left;
-    margin-left: 70px;
-    margin-top: 20px;
-    border: 10px solid black;
-    
-}
-
-
+ #about-me {
+     padding: 20px;
+     margin: 20px;
+ }
 /* Work section */
+
+#work {
+    flex: 4;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
 .gallery-image {
     width: 500px;
     height: auto;
@@ -163,9 +185,27 @@ footer {
 
 
 footer p {
-      display: inline;
-      margin: 20px;
+    display: inline;
+    margin: 20px;
       
   }
 
 
+/* Responsive Layout */
+
+@media screen and (max-width: 768px) {
+    .content,
+    nav, footer, header.container {
+      flex-direction: column;
+    }
+    .gallery-image {
+        width: 100%;
+        
+    }
+
+    header.container {
+        float: center;
+    }
+    
+  }
+  
