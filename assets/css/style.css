@@ -211,11 +211,16 @@ footer a:hover {
 
 /* Footer section / contact information */
 
+a {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
 
 
 footer {
     padding: 40px;
-    text-align: left;
+    text-align: center;
     color: #EEEEEE;
   }
 
@@ -243,3 +248,4 @@ footer p {
   }
   
  
+
