@@ -11,7 +11,7 @@ https://lauraantunez024.github.io/LaurasPortfolio/
 HTML, CSS, Flexbox
 
 
-### What is this?
+### Website Info
 The portfolio contains all of my professional information as well as some examples of my work. Click on images to see live projects.
 
 
