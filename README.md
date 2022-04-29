@@ -11,12 +11,10 @@ https://lauraantunez024.github.io/LaurasPortfolio/
 HTML, CSS, Flexbox
 
 
-1-2 sentences explaining what the app is
+### What is this?
+The portfolio contains all of my professional information as well as some examples of my work. Click on images to see live projects
 
-The portfolio contains all of my professional information as well as some examples of my work. 
 
-
-2-3 Screenshots / gifs of the app
 
 
 
