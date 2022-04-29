@@ -12,7 +12,7 @@ HTML, CSS, Flexbox
 
 
 ### What is this?
-The portfolio contains all of my professional information as well as some examples of my work. Click on images to see live projects
+The portfolio contains all of my professional information as well as some examples of my work. Click on images to see live projects.
 
 
 
