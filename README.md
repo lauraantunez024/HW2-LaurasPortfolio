@@ -17,7 +17,6 @@ The portfolio contains all of my professional information as well as some exampl
 
 
 
-
 ### Contact information
 
 Lauraantunez024@gmail.com
