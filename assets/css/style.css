@@ -97,7 +97,7 @@ header img {
 .flex-container {
     display: inline-flex;
     height: 200px;
-    background: url(/assets/images/geom.png);
+    background: url(./assets/images/geom.png);
     border: 10px solid black;
 
 }
