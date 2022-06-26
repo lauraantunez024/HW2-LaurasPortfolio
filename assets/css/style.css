@@ -33,6 +33,10 @@ section, #work h2  {
 
 }
 
+section h2 {
+    border-right: #1C658C 10px solid;
+}
+
 h1 {
     color: #1C658C;
 }
@@ -227,12 +231,15 @@ footer p {
       
   }
 
+footer a {
+    font-size: 18px;
+}
+
 
 /* Responsive Layout */
 
 @media screen and (max-width: 768px) {
-    .content,
-    nav, footer, figure, header.container {
+    .container, nav, footer, .container img, header.container {
       flex-direction: column;
     }
     .gallery-image, figure {
